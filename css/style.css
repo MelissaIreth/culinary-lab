@@ -113,3 +113,16 @@ hr{
 	background-color: whitesmoke;
 	color: #333;
 }
+
+
+
+
+.vitality{
+	background-color: #333;
+	color: whitesmoke;
+	padding: 50px;
+}
+
+#menurrss{
+	background-image: url(../img/bg-footer.jpg);
+}
