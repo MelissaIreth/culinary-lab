@@ -1,11 +1,36 @@
-.navbar-fixed-top{
-	position: absolute;
-}
-
 .navbar{
 	margin-bottom: 0;
 }
-
+.addscroll{
+	background-color: #222;
+	padding: 25px;
+	margin: 0;
+}
+.noscroll{
+	padding: 15px;
+}
+nav.navbar-toggle{
+	background-color: #fed136;
+    border-color: #fed136;
+    font-size: 12px;
+}
+.navbar-inverse{
+	background-color: rgba(0,0,0,0);
+	border-color: rgba(8,8,8,0);
+}
+.navbar-inverse .navbar-nav>.active>a{
+	background-color: whitesmoke;
+	color: #222;
+	border-radius: 5px;
+}
+.navbar-inverse .navbar-nav>li>a{
+	color: whitesmoke;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+	color: #222;
+	background-color: whitesmoke;
+	border-radius: 5px;
+}
 nav li a{
 	color: #ffffff;
 }
@@ -13,11 +38,6 @@ nav li a{
 	background-color: #ffffff;
 }
 
-nav li a:hover{
-	border-radius: 5px;
-	background-color: #ffffff;
-	color: black;
-}
 .el-logo{
 	padding-top: 5px;
 }
@@ -69,7 +89,10 @@ nav li a:hover{
 	padding-bottom: 0;
 	color: whitesmoke;
 }
-
+h4{
+	padding-left: 20px;
+	font-size: 25px;
+}
 hr{
 	width: 100px;
 }
